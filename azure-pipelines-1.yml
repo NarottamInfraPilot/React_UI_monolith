@@ -1,0 +1,12 @@
+#pipeline kab chalega
+trigger: none
+
+#pipeline kaha chalega
+pool: linux
+
+#pipeline me kya chalega
+steps:
+  - script: 
+      echo "meri first pipeline"
+    displayName: echo run ho rahi hai
+
