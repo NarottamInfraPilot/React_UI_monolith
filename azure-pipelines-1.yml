@@ -9,4 +9,6 @@ steps:
   - script: 
       echo "meri first pipeline"
     displayName: echo run ho rahi hai
-
+      cat config.sh
+      echo "config ko read karo"
+    
